@@ -1,0 +1,17 @@
+@media screen and (max-width: 768px) {
+    .nav__menu {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        right: 0;
+        width: 90%;
+        margin: 0 auto; /* ajouté */
+        padding: 2.5rem 0 0;
+        text-align: center;
+        background-color: $body-color;
+        transition: .4s;
+        box-shadow: 0 0 4px rgba(0, 0, 0, .1 );
+        border-radius: 2rem;
+        z-index: $z-fixed;
+    }
+}
