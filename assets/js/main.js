@@ -93,7 +93,7 @@ themeButton.addEventListener('click', () => {
 /*==================== SCROLL REVEAL ANIMATION ====================*/
 const sr = ScrollReveal({
     distance: '30px',
-    duration: 1000,
+    duration: 100,
     reset: true,
 });
 
@@ -102,7 +102,7 @@ sr.reveal(`.home__data, .home__img,
            .accessory__content,
            .footer__content`, {
     origin: 'top',
-    interval: 100,
+    interval: 10,
 })
 
 sr.reveal(`.share__img, .send__content`, {
